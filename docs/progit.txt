@@ -1,0 +1,2 @@
+user guide of git
+添加一些帮助文本
