@@ -1,4 +1,5 @@
-public class AppTest {
+public class AppTests {
+      @Test
       void test() {
       }
 }
