@@ -13,3 +13,16 @@
 lambda 确实给我们带来了很大的便利，甚至可以说是 lambda 催生了 Stream API，然而它却仅仅是个语法糖，本质还是个匿名类！而且还是个只支持「单一抽象方法（Single Abstract Method）接口」 的匿名类。
 
 不但使用繁琐还有限制，比之 Java 8 之前的版本我们会觉得很好用了，但远不如 Kotlin 的「函数类型」。
+
+总的来说，Kotlin 中通过让函数拥有「函数类型」，做到了 Java 中「函数式接口 + lambda 」才能做到的事情。
+
+## 声明一个函数
+
+Kotlin 中使用`fun`关键字来声明一个函数：
+
+```kotlin
+fun minus(a: Int, b: Int): Int {
+  return a - b
+}
+```
+
